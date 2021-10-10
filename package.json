@@ -1,0 +1,47 @@
+{
+  "name": "getir",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development node ./bin/www",
+    "dev:start": "NODE_ENV=local node ./bin/www",
+    "test": "NODE_ENV=development jest --collectCoverage",
+    "lint": "eslint src/**/*.js",
+    "eslint:fix": "eslint --fix src/**/*.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~4.3.2",
+    "express": "~4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-jwt-blacklist": "^1.1.0",
+    "http-errors": "~1.8.0",
+    "jade": "~1.11.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.6",
+    "uuid": "^8.3.2",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.2.0",
+    "lint-staged": "^11.1.2",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
